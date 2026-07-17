@@ -1,0 +1,17 @@
+# Interfaz de Usuario
+gradio==4.19.2
+
+# Procesamiento de Imagen (2D)
+Pillow==10.2.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+rembg==2.0.53
+
+# Inteligencia Artificial y Tensores (Versiones CPU-friendly)
+torch==2.2.1
+torchvision==0.17.1
+transformers==4.38.2
+
+# Procesamiento y Exportación 3D (Formato STL)
+trimesh==4.1.7
+scipy==1.12.0
