@@ -1,0 +1,55 @@
+# ==============================================================================
+# .gitignore para el proyecto 13 Link - Generador 3D (Python / IA Local)
+# ==============================================================================
+
+# Entornos Virtuales
+venv/
+env/
+.env
+.venv/
+
+# Archivos compilados de Python y Caché
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Modelos de Inteligencia Artificial (Pesos)
+# IMPORTANTE: No subir estos archivos a GitHub por sus límites de tamaño
+models/*.pth
+models/*.pt
+models/*.onnx
+models/*.bin
+models/*.safetensors
+*.ckpt
+.cache/
+.huggingface/
+
+# Archivos de procesamiento y exportación temporal 3D (Mallas)
+outputs/
+temp/
+*.stl
+*.obj
+*.glb
+*.gltf
+*.ply
+
+# Archivos temporales de imagen (Entradas/Salidas)
+# Se ignoran imagenes sueltas pero se preservan los recursos de la marca en la interfaz
+*.png
+*.jpg
+*.jpeg
+!ui/assets/*.png
+!ui/assets/*.jpg
+!ui/assets/*.svg
+
+# Caché y logs de Gradio / UI
+gradio_cached_examples/
+*.log
+flagged/
+
+# IDEs y SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
